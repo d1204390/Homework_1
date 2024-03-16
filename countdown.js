@@ -9,7 +9,7 @@ function startCountdown() {
     const countdownElement = document.getElementById('countdown');
 
     function updateCountdown() {
-        countdownElement.textContent = `重新整理倒數計時：${secondsLeft} 秒`;
+        countdownElement.textContent = `自動重新整理倒數：${secondsLeft} 秒`;
         secondsLeft--;
 
         if (secondsLeft < 0) {

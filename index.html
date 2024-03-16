@@ -6,18 +6,43 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>當機等候網頁</title>
-    <style>
-        body {
-            background-color: #f64b2f;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-    </style>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="countdown.js"></script>
 </head>
 
 <body>
-        <h1>系統忙碌中</h1>
-        <img src="IMG/蝦皮LOGO.png" height="89" width="253"/>
-        <img src="IMG/蝦小編1.png" height="188" width="213"/>
-        <img src="IMG/蝦小編2.png" height="150" width="170"/></body>
+       <header>
+           <img src="IMG/蝦皮LOGO.png" alt="蝦皮LOGO" height="89" width="253"/>
+       </header>
+       <div class="center">
+       <img src="IMG/蝦皮.png" alt="蝦皮">
+       </div>
+       <main>
+           <section>
+               <h2>親愛的蝦米們，<br>
+                   蝦皮伺服器目前出現不穩定的狀況，<br>
+                   可能造成暫時無法下單或部分頁面瀏覽出現問題。<br>
+                   工程師正在十萬火急維修中，造成您的不便，我們深感抱歉。<br>
+               </h2>
+           </section>
+
+
+       </main>
+
+
+
+
+       <div class="image-wrapper">
+           <img src="IMG/蝦小編2.png" alt="蝦小編2" height="150" width="170" class="image">
+
+           <p id="countdown" class="countdown-text"></p>
+
+           <img src="IMG/蝦小編1.png" alt="蝦小編1" height="188" width="213" class="image">
+       </div>
+
+
+
+</body>
+
 </html>

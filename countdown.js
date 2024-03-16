@@ -1,7 +1,8 @@
 // countdown.js
 
 // 設定倒數計時的秒數
-const countdownSeconds = 9;
+const countdownSeconds = 29
+;
 
 // 開始倒數計時
 function startCountdown() {
